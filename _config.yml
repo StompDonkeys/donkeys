@@ -1,0 +1,10 @@
+title: StompDonkey Disc Golf Association
+baseurl: "/donkeys"
+url: "https://stompdonkey.github.io"
+
+markdown: kramdown
+theme: null
+
+collections:
+  players:
+    output: true

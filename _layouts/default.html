@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+
+<body>
+<header>
+  <div class="header-inner">
+    <img src="{{ site.baseurl }}/assets/images/logo.png" alt="StompDonkey Logo" class="logo">
+    <nav>
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/dashboard.html">Dashboard</a>
+      <a href="{{ site.baseurl }}/round-history.html">Round History</a>
+      <a href="{{ site.baseurl }}/players.html">Player Profiles</a>
+      <a href="{{ site.baseurl }}/hall-of-fame.html">Hall of Fame</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer>
+  <p>StompDonkey Disc Golf Association</p>
+</footer>
+</body>
+</html>
